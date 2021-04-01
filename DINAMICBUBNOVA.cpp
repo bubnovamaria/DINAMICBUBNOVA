@@ -14,7 +14,7 @@ int main() /// /Мейн 22:49
 {
 	HINSTANCE dll = LoadLibrary(L"BUBNOVADLL.dll"); ///получаем указатель на DLL
 	{
-		group* Group;
+		group* Group; ///указатель на функцию
 		name* Name;
 
 		Group = (group*)GetProcAddress(dll, "Group"); ///GetProcAddress извлекает адрес экспортируемой функции или переменной из заданной динамически подключаемой библиотеки (DLL).
