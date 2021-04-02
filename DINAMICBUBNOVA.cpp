@@ -28,6 +28,7 @@ int main() /// /Мейн 22:49
 		std::cout << "Name is " << n << "\n";
 		delete[]n;
 	}
+	system("pause");
 	return 0;
 
 }
